@@ -1,0 +1,41 @@
+{
+  "name": "phototitle",
+  "version": "0.0.1",
+  "description": "Generate image description files",
+  "license": "MIT",
+  "repository": "handball10/phototitle",
+  "author": {
+    "name": "florianguembel",
+    "email": "florian.guembel@die-interaktiven.de",
+    "url": "github.com/handball10/phototitle"
+  },
+  "bin": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "commander": "^2.9.0",
+    "meow": "^3.7.0",
+    "q": "^1.4.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "xo": "^0.17.0"
+  }
+}
